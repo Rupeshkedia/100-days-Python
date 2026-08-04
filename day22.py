@@ -1,6 +1,6 @@
-p = int(input("Entre marks of physics:"))
-c = int(input("Enter marks of chemistary:"))
-m = int(input("Entre marks of maths:"))
+p = float(input("Entre marks of physics:"))
+c = float(input("Enter marks of chemistary:"))
+m = float(input("Entre marks of maths:"))
 s = p + c + m
 a = s/3
 if (a>80):
